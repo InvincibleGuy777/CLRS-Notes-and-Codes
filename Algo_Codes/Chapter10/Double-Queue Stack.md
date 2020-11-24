@@ -216,7 +216,7 @@ void Queue::ShowQueue() const{
 
 We have two queues and mark one of them as **working**. **PUSH** queues an element on the working queue. **POP** should dequeue all but one element of the working queue and queue them on the **vacant**. The roles of the queues are then reversed, and the final element left in the (now) vacant queue is returned.
 
-*The analysis above refers to <a href="https://walkccc.github.io/CLRS/Chap10/10.1/">walkccc CLRS Solutions.</a>*
+*The analysis above refers to <a href="https://walkccc.github.io/CLRS/Chap10/10.1/" target="_blank">walkccc CLRS Solutions.</a>*
 
 **Push** O(1) 
 
